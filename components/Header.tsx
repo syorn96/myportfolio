@@ -32,6 +32,11 @@ const Header = (props: Props) => {
           fgColor='gray'
           bgColor='transparent'
           />
+          <SocialIcon
+          url='https://www.instagram.com/luckyducktc/'
+          fgColor='gray'
+          bgColor='transparent' 
+          />
         </motion.div>
         <motion.div
         initial={{
