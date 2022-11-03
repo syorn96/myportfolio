@@ -23,7 +23,7 @@ function About({}: Props) {
         }}
         viewport={{ once: true }} 
         src='./StephenYornAbout.png'
-        className='-mb-20 md:mb-0 flex w-56 h-56 full object-cover md:lg md:w-64 xl:h-[600px]'
+        className='-mb-20 md:mb-0 flex w-56 h-56 full object-cover md:lg md:w-64'
         />
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>A little about me ...</h4>
