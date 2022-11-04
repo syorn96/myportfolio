@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 
 type Props = {}
 
-function ExperienceCard({}: Props) {
+function ExperienceCard2({}: Props) {
   return (
     <article className='flex-col flex rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[900px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
         <motion.img
@@ -19,16 +19,16 @@ function ExperienceCard({}: Props) {
         alt='Kaiser Permanente Logo'/>
 
         <div className='px-0 md:px-10'>
-            <h4 className='text-4xl font-light'>Pharmacy Lead Clerk</h4>
+            <h4 className='text-4xl font-light'>Pharmacy Help Desk Clerk</h4>
             <p className='font-bold text-2xl mt-1'>Kaiser Permanente</p>
-            <p className='uppercase py-5 text-gray-300'>FEB 2021 - JUL 2022</p>
+            <p className='uppercase py-5 text-gray-300'>FEB 2018 - FEB 2022</p>
             <ul className='list-disc space-y-4 ml-5 text-lg'>
-                <li>Assist managers in daily scheduling.</li>
-                <li>Train new employees and manage over twenty clerks.</li>
-                <li>Assist production team with troubleshooting shipping and packing machinery.</li>
-                <li>Team Leadership</li>
-                <li>Time Management</li>
-                <li>Employee Training</li>
+                <li>Assist and guide team members with insurance benefits and healthcare applications.</li>
+                <li>Provide consistent Call Center customer service to all Kaiser patients with their Pharmaceutical needs: prescription refills, insurance benefits, and refunds.</li>
+                <li>Receive and maintain high volume of calls from all Northern California members with their pharmacy concerns.</li>
+                <li>Customer Service</li>
+                <li>Teamwork</li>
+                <li>Troubleshooting</li>
             </ul>
         </div>
         
@@ -36,4 +36,4 @@ function ExperienceCard({}: Props) {
   )
 }
 
-export default ExperienceCard
+export default ExperienceCard2
