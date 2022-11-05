@@ -29,7 +29,7 @@ const iconArray = [
     },
     {
         url: 'https://img.icons8.com/color/512/postgreesql.png',
-        name: 'Postgresql'
+        name: 'PSQL'
     },
     {
         url: 'https://img.icons8.com/color/512/mongodb.png',

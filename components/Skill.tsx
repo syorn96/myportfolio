@@ -3,7 +3,10 @@ import {motion} from 'framer-motion';
 
 type Props = {
     directionLeft?: boolean;
-    skillImage?: Array<string>;
+    skillImage?: {
+      url: string;
+      name: string;
+    }[];
 };
 
 export default function Skill({ directionLeft, skillImage}: Props) {
@@ -16,10 +19,10 @@ export default function Skill({ directionLeft, skillImage}: Props) {
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
-        src={`${skillImage.url}`}
+        src={`${skillImage?.url}`}
         className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale' 
         />
-        <div className='items-center absolute top-0 my-20 py-3.5 justify-center '>{skillImage.name}</div>
+        <div className='relative bottom-0'>{skillImage?.name}</div>
     </div>
   )
 }
