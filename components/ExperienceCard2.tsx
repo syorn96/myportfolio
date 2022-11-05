@@ -21,7 +21,7 @@ function ExperienceCard2({}: Props) {
         <div className='px-0 md:px-10'>
             <h4 className='text-4xl font-light'>Pharmacy Help Desk Clerk</h4>
             <p className='font-bold text-2xl mt-1'>Kaiser Permanente</p>
-            <p className='uppercase py-5 text-gray-300'>FEB 2018 - FEB 2022</p>
+            <p className='uppercase py-5 text-gray-300'>FEB 2018 - FEB 2021</p>
             <ul className='list-disc space-y-4 ml-5 text-lg'>
                 <li>Assist and guide team members with insurance benefits and healthcare applications.</li>
                 <li>Provide consistent Call Center customer service to all Kaiser patients with their Pharmaceutical needs: prescription refills, insurance benefits, and refunds.</li>
