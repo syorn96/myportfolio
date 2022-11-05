@@ -27,7 +27,7 @@ function About({}: Props) {
         />
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>A little about me ...</h4>
-            <p className='text-sm'>After working in the customer service and health industry for more than half a decade - I decided to take the skills I learned and pursue software engineering. My goal is help, guide and teach others with technical difficulties; whilst creating fun, inspiring and engaging applications. I love learning new concepts and implementing my dose of creativity into every project.</p>
+            <p className='text-2xl'>After working in the customer service and health industry for more than half a decade - I decided to take the skills I learned and pursue software engineering. My goal is help, guide and teach others with technical difficulties; whilst creating fun, inspiring and engaging applications. I love learning new concepts and implementing my dose of creativity into every project.</p>
         </div>
     </div>
   )
